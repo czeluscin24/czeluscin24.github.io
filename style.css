@@ -83,6 +83,7 @@ nav ul li a:hover {
     margin-bottom: 1.5rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #eee;
+    color: white;
 }
 
 .news-item:last-child {
