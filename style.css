@@ -104,6 +104,12 @@ nav ul li a:hover {
     color: white;
 }
 
+.news-item ul,
+.news-item li {
+    color: white; 
+    margin-left: 20px; 
+}
+
 .weather-section {
     background-color: #303134;
     padding: 1.5rem;
