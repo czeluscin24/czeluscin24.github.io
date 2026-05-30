@@ -297,3 +297,30 @@ small a {
 small a:hover {
     text-decoration: underline;
 }
+
+.visitor-counter {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #303134;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.visitor-counter h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #79c0ff;
+}
+
+.visitor-counter p {
+    margin: 10px 0 0;
+    font-size: 1.1em;
+    color: white;
+}
+
+#visit-count {
+    font-weight: bold;
+    color: #3498db;
+}
+
