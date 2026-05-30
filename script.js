@@ -35,3 +35,23 @@ async function loadWeather() {
 }
 
 document.addEventListener("DOMContentLoaded", loadWeather);
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    
+    let visitCount = localStorage.getItem("visitCount");
+
+    
+    if (visitCount === null) {
+        visitCount = 0;
+    } else {
+        visitCount = parseInt(visitCount);
+    }
+
+    
+    visitCount++;
+    localStorage.setItem("visitCount", visitCount);
+
+    
+    document.getElementById("visit-count").textContent = visitCount;
+});
